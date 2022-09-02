@@ -1,0 +1,117 @@
+\documentclass[12pt, a4paper]{article}
+\usepackage[francais]{babel}
+\usepackage{caption}
+\usepackage{graphicx}
+\usepackage[T1]{fontenc}
+\usepackage{listings}
+\usepackage{geometry}
+\usepackage{minted}
+\usepackage{array,multirow,makecell}
+\usepackage[colorlinks=true,linkcolor=black,anchorcolor=black,citecolor=black,filecolor=black,menucolor=black,runcolor=black,urlcolor=black]{hyperref}
+\setcellgapes{1pt}
+\makegapedcells
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\lhead{}
+\rhead{}
+\chead{}
+\rfoot{\thepage}
+\lfoot{Martin Baumgaertner}
+\cfoot{}
+\renewcommand{\footrulewidth}{0.4pt}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\listingscaption}{Code}
+\renewcommand{\listoflistingscaption}{Table des codes}
+% \usepackage{mathpazo} --> Police à utiliser lors de rapports plus sérieux
+
+\begin{document}
+\begin{titlepage}
+	\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} 
+	\center 
+	\textsc{\LARGE iut de colmar}\\[1.5cm] 
+	\textsc{\Large R308}\\[0.5cm] 
+	\textsc{\large Année 2022-23}\\[0.5cm]
+	\HRule\\[0.75cm]
+	{\huge\bfseries Consolidation de la programmation}\\[0.4cm]
+	\HRule\\[1.5cm]
+	\textsc{\large martin baumgaertner}\\[0.5cm] 
+
+	\vfill\vfill\vfill
+	{\large\today} 
+	\vfill
+\end{titlepage}
+\newpage
+\tableofcontents
+\newpage
+\section{CM 1 - 2 septembre 2022}
+
+\subsection{Méthodes en python}
+    Les arguments des méthodes peuvent être :
+        \begin{itemize}
+            \item Positionnels
+            \item Nommé
+            \item  Sous la forme de valeur non nommées
+            \item  Sous la forme d'un dictionnaire
+        \end{itemize}
+    
+\subsection{Programmation orienté object}
+    Le stockage des données peut prendre plusieurs formes en pyhton comme
+    par exemple la variable simple ou la liste. 
+
+    \subsubsection{Modélisation object}
+    UML : est un langage descriptif à base de pictogrammes permettant de
+    représenter des schémas relationnels d'objets, de base de données, de gestion
+    de processus. 
+
+    En \texttt{UML}, les visibilités sont symbolisés par :
+    \begin{itemize}
+        \item + : Publique
+        \item - : Protégé
+        \item - Privé
+    \end{itemize}
+    
+    \subsubsection{Les attributs}
+        Les attributs sont des données simples encapsulées dans l'objet, ils
+        correspondent aux qualités de l'objet
+
+    \subsubsection{Visibilité de l'objet}
+        En programmation orienté objet, on défini 3 niveaux de visiblité :
+        \begin{listing}[H]
+            \caption{Protection des données}
+            \label{lst:settings}
+            \begin{minted}{bash}
+            __attribut : privé
+            _attribut : protégé
+            \end{minted}
+        \end{listing}
+   
+    \subsubsection{Constructeur}
+    Pour instancier un object avec des attributs d'instance, il faut ajouter la
+    méthode \texttt{init(self,...)}.
+    Cette méthode permet pleins de choses
+
+    \subsection{Héritage : Python}
+    Pour créer une classe héritant d'une autre classe, il suffit de la 
+    déclarer enrtre parenthèse. 
+
+        \subsubsection{Héritage : mot de clé \texttt{super}}
+        Le mot clé super fiat référence à la {suoer-classe}, la classe dont on 
+        hérite
+
+    \subsection{Format de données}
+        \subsubsection{JSON}
+        Le JSON est un format de données permettant de stocker des données. 
+
+    \subsection{Python et base de données}
+    Pour connecter à une base de données en python, il faut installer 
+    les drivers correspondant. 
+
+    Pour mysql, un des modules à utiliser est mysql.connector etc... 
+    
+    
+
+
+   
+
+
+\end{document}
