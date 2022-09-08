@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.6.15)  2 SEP 2022 11:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.6.15)  6 SEP 2022 14:31
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -545,25 +545,25 @@ Package hyperref Info: bookmark level for unknown listing defaults to 0 on input
  (./_minted-rapport/default.pygstyle) (./_minted-rapport/63DB40BCEF7E0FF01BF4FA02D7BBBFA1D82E77CF33B0E5351674FC648B18645F.pygtex) [2]
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <12> not available
 (Font)              Font shape `T1/cmtt/m/n' tried instead on input line 97.
- [3] (./rapport.aux)
+ [3] [4] (./rapport.aux)
 Package rerunfilecheck Info: File `rapport.out' has not changed.
-(rerunfilecheck)             Checksum: 5E0155325CB079FD99AD4922DC5844DB;1958.
+(rerunfilecheck)             Checksum: C9442D8A8DCC6CC9685003BA5A6EF393;2132.
 runsystem(rm rapport.pyg)...executed.
 
  ) 
 Here is how much of TeX's memory you used:
- 17371 strings out of 478268
- 294471 string characters out of 5846347
- 644693 words of memory out of 5000000
- 35332 multiletter control sequences out of 15000+600000
+ 17374 strings out of 478268
+ 294497 string characters out of 5846347
+ 644688 words of memory out of 5000000
+ 35333 multiletter control sequences out of 15000+600000
  481184 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,11n,81p,410b,538s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfcc1440.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfcc1728.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfcc2074.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on rapport.pdf (4 pages, 158231 bytes).
+Output written on rapport.pdf (5 pages, 160306 bytes).
 PDF statistics:
- 142 PDF objects out of 1000 (max. 8388607)
- 114 compressed objects within 2 object streams
- 18 named destinations out of 1000 (max. 500000)
- 97 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 152 PDF objects out of 1000 (max. 8388607)
+ 123 compressed objects within 2 object streams
+ 20 named destinations out of 1000 (max. 500000)
+ 105 words of extra memory for PDF output out of 10000 (max. 10000000)
 
