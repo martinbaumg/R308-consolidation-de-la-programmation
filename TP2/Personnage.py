@@ -65,7 +65,7 @@ class Personnage:
         self.__pseudo = None
         self.__niveau = None 
         self.__nbPV = None
-        se
+        self.__initiative = None
         print("Le personnage a été supprimé")
 
     
